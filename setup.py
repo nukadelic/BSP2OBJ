@@ -8,8 +8,7 @@ setup(name='bsp2obj',
       license='MIT',
       packages=['bsp2obj'],
       install_requires=[
-          'pillow',
-          'enum'
+          'pillow'
       ],
       entry_points={
           'console_scripts':['bsp2obj=bsp2obj.command_line:main']
