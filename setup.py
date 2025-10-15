@@ -9,7 +9,7 @@ setup(name='bsp2obj',
       packages=['bsp2obj'],
       install_requires=[
           'pillow',
-          'enum34'
+          'enum'
       ],
       entry_points={
           'console_scripts':['bsp2obj=bsp2obj.command_line:main']
